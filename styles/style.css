@@ -1,0 +1,77 @@
+#parent_wrapper {
+	width: 800px;	
+	margin-top: 75px;
+	margin-left:75px;
+	font-family: "Helvetica";
+	height: 500px;
+
+}
+
+/*Navigation bar settings*/
+body{
+	background-color: #00ccff;
+
+}
+nav {
+	background-color: lightgrey;
+	padding: 5px;
+	font-size: 120%;
+}
+
+ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+nav ul li {
+	display: inline-block;
+	width:24%;
+	box-sizing: border-box;
+}
+
+nav ul li a:hover {
+	background-color: black;
+	color: white;
+}
+
+ul li a{
+	text-decoration: none;
+}
+
+#contentPanel {
+	position: relative;
+	top: 50px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 1px solid blue;
+
+}
+
+.contentHolder {
+	float:left;
+	height: 300px;
+}
+
+#imageHolder {
+	margin-top: 50px;
+	width: 35%;
+	margin-left: 80px; 
+}
+
+#welcomeImage {
+	padding-left: 0px;
+	width: 100%;
+}
+
+#welcomeMessageAndLinksHolder {
+	margin-top: 50px;
+	margin-left: 50px;
+	padding: 20px;
+	width: 35%;
+}
+
+#linksHolder {
+	margin-top: 80px;
+}
