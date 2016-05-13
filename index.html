@@ -4,7 +4,7 @@
 
 <head>
 
-<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/global_site_style.css">
 
 <style>
 
@@ -12,9 +12,22 @@
 	text-align: center;
 }
 
-#emailUsPanel {
-	position: relative;
-	top: 20px;
+#welcomeImage {
+	padding-left: 0px;
+	width: 100%;
+}
+
+#imageHolder {
+	margin-top: 50px;
+	width: 35%;
+	margin-left: 80px; 
+}
+
+#welcomeMessageAndLinksHolder {
+	margin-top: 50px;
+	margin-left: 50px;
+	padding: 20px;
+	width: 35%;
 }
 
 </style>
@@ -36,28 +49,24 @@
 <!-- Title, centered !-->
 <h1 id="welcomeHeader">The Record Company</h1>
 
-<!-- Holder for the content below the navigation bar-->
-<div id="igc">
-
-<!-- image on the left side of the welcome page, this is a shark -->
-<div id="imageHolder" class="contentHolder">
-	<img id="welcomeImage" src="images/shark_welcome.jpg">
-</div>
-
 <!-- Holder for the welcome image and intro text/links on right side-->
 <div id="welcomeMessageAndLinksHolder" class="contentHolder">
 
 <span id="welcomeMessage">
-Hi - welcome to our site that will hopefully educate you on the terrible shark fin industry and why you should <a href="donate.html">donate</a> to our cause to help end it!
+Hi - welcome to The Record Company!
+<br></br>
+Please browse and buy from our collection, look at upcoming events and subscribe to our newsletter!
 
-Please <a href="donate.html">donate</a> to our cause, and if you have any questions please contact us on the email below:
 </span>
 <!-- end welcomeMessage -->
 
-<!-- links to allow people to  -->
+</div> <!-- end content panel -->
+</div> <!-- end welcomeAndLinksHolder-->
 
-<div id="emailUsPanel">
-	<a href="mailto:save_the_sharks@gmail.com?subject=Inquiries">save_the_sharks@gmail.com</a>
+
+<!-- image on the right side of the welcome page, this is a shark -->
+<div id="imageHolder" class="contentHolder">
+	<img id="welcomeImage" src="images/records_wall.jpg">
 </div>
 
 </div> <!-- end content panel -->
