@@ -9,11 +9,12 @@
 
 /*Navigation bar settings*/
 body{
-	background-color: #00ccff;
+
+	background-color: "white";
 
 }
 nav {
-	background-color: lightgrey;
+	background-color: "white";
 	padding: 5px;
 	font-size: 120%;
 }
@@ -46,7 +47,6 @@ ul li a{
 	margin: 0;
 	padding: 0;
 	border: 1px solid blue;
-
 }
 
 .contentHolder {
@@ -54,24 +54,3 @@ ul li a{
 	height: 300px;
 }
 
-#imageHolder {
-	margin-top: 50px;
-	width: 35%;
-	margin-left: 80px; 
-}
-
-#welcomeImage {
-	padding-left: 0px;
-	width: 100%;
-}
-
-#welcomeMessageAndLinksHolder {
-	margin-top: 50px;
-	margin-left: 50px;
-	padding: 20px;
-	width: 35%;
-}
-
-#linksHolder {
-	margin-top: 80px;
-}
