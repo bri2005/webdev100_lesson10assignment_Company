@@ -1,0 +1,17 @@
+.events{
+	float: left;
+}
+.eventimg{
+	width: 200px;
+	float: left;
+	padding: 20px;
+	margin-left: 10px;
+}
+.eventhead{
+	text-align: center;
+}
+
+.eventtext{
+	float: left;
+	width: 70%;
+}
