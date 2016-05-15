@@ -4,6 +4,8 @@
 	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles2.css">
 	<link rel="stylesheet" type="text/css" href="styles/global_site_style.css">
+	<script src = "scripts/jquery-2.2.3.js"></script>
+	<script src = "scripts/script1.js"></script>
 </head>
 
 <body>
@@ -16,12 +18,47 @@
 	</ul>
 	</nav>
 
-	<h1 class ="eventhead">Conact Us!</h1>
+	<h1 class ="eventhead">Contact Us!</h1>
 	<div class="address">
-		<img src="map">
+		 
 		<div><b>Address:</b></div>
 		<div>666 Metal Ave</div>
 		<div>Babylon NY, 11702</div>
+		<div>Get Directions! Enter your address below:</div>
+		<div>
+			<form action="https://www.google.com/maps/dir//19+Cormack+Ct,+Babylon,+NY+11702,+USA/@40.6936356,-73.3273041,16z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e9d2d608b23e23:0xb6f94925bcbd23a5!2m2!1d-73.3229267!2d40.6936275" method="GET" target="iframe_a">
+				<input type="text" name="q">
+				<input type="submit" value="Submit">
+			</form>
+		<iframe src = "https://www.google.com/maps/" width="300" height="300" name = "iframe_a"></iframe>
+		</div>
 	</div>
+	<div class ="email">
+		<h3>Email Us!</h3>
+		<div><a href="mailto:info@TheRecordCompany.com?subject=Inquiries">info@TheRecordCompany.com</a></div><br>
+		<div> We love to hear feedback from our customers. Lets us know how we're doing and how we can become better!</div>
+	</div>
+	<div class ="social_media">
+		<h3>Follow us on social media!</h3>
+		<div class = "twitter">
+			<a href="https://twitter.com/" target="_blank">
+				<img src="images/twitter.jpg">
+			</a>
+		</div>
+		<div class = "insta">
+			<a href = "https://www.instagram.com/?hl=en" target="_blank">
+				<img src ="images/insta.jpg">
+			</a>
+		</div>
+		<div class = "facebook">
+			<a href = "https://www.facebook.com/" target="_blank">
+				<img src ="images/fbook.jpg">
+			</a>
+		</div>
+	</div>
+
+
+
+
 </body>
 <html>

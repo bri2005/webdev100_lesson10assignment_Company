@@ -29,4 +29,44 @@
 
 .address{
 	margin-left: 15px;
+	width: 30%;
+	float: left;
+}
+
+.email{
+	float: left;
+	width: 30%;
+}
+
+.social_media{
+	float: left;
+	
+}
+
+.twitter{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.insta{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 10px;
+	margin: 5px:;
+}
+.facebook{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.social_media img{
+	width: 100px;
+	height: 100px;
 }
