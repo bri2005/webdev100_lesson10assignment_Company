@@ -20,10 +20,14 @@ $(document).ready(
 				height: "100px"
 			})
 		})
-	}
-/*	function (){
+	//}
+	//function (){
 		$(".insta").mouseenter(function(){
 			$(".insta").css({
+				width: "200px",
+				height: "200px"
+			})
+			$(".insta a img").css({
 				width: "200px",
 				height: "200px"
 			})
@@ -33,11 +37,19 @@ $(document).ready(
 				width: "100px",
 				height: "100px"
 			})
+			$(".insta a img").css({
+				width: "100px",
+				height: "100px"
+			})
 		})
-	}
-	function (){
+	//}
+	//	function (){
 		$(".facebook").mouseenter(function(){
 			$(".facebook").css({
+				width: "200px",
+				height: "200px"
+			})
+			$(".facebook a img").css({
 				width: "200px",
 				height: "200px"
 			})
@@ -47,6 +59,10 @@ $(document).ready(
 				width: "100px",
 				height: "100px"
 			})
+			$(".facebook a img").css({
+				width: "100px",
+				height: "100px"
+			})
 		})
-	}*/
+	}
 );
