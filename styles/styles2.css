@@ -1,5 +1,7 @@
 .events{
 	float: left;
+	background-color: lightgrey;
+	border-radius: 10px;
 }
 .eventimg{
 	width: 200px;
@@ -10,7 +12,7 @@
 .eventhead{
 	text-align: center;
 }
-
+	
 .eventtext{
 	float: left;
 	width: 70%;
@@ -70,3 +72,29 @@
 	width: 100px;
 	height: 100px;
 }
+
+.tbd{
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.payment{
+	border: solid black 1px;
+	width: 300px;
+	height: 400px;
+}
+
+.disclaimer{
+	font-size: 10px;
+}
+
+.tix img{
+	width: 100px;
+	height: 35px;
+}
+
+.payment img{
+	width: 40px;
+	height: 20px;
+}
+

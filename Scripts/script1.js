@@ -64,5 +64,12 @@ $(document).ready(
 				height: "100px"
 			})
 		})
+
+		$("#quantity-form").submit(function(event){
+			event.preventDefault();
+			quantity = $("#quantity").val(); 
+			total = (quantity * 15).toFixed(2);
+			$("#total").html("$" + total);
+		})
 	}
 );

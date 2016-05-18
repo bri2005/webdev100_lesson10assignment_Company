@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<!-- <link rel="stylesheet" type="text/css" href="styles/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="styles/styles2.css">
+	<link rel="stylesheet" type="text/css" href="styles/global_site_style.css">
+	<script src = "scripts/jquery-2.2.3.js"></script>
+	<script src = "scripts/script1.js"></script>
+</head>
+
+<body>
+	<h1>Payment Info</h1>
+	<div class="payment">
+		<div>Credit Card Information</div>
+		<form>
+  			<input type="radio" name="cardtype" value="Mastercard"><img src="images/mastercard.png"> Mastercard<br>
+  			<input type="radio" name="cardtype" value="Visa"><img src="images/visa.png"> Visa<br>
+ 			 <input type="radio" name="cardtype" value="AmEx"><img src="images/amex.jpg"> American Express 
+		</form><br>
+		<div>Card number:</div>
+		<input type="password" name="cardnumber" method="post"><br>
+		<div>Expiration date (mm/yy):</div>
+		<input type="password" name="expiration" method="post"><br>
+		<div>CCV:</div>
+		<input type="password" name="ccv" method="post"><br>
+		<input type="submit" value="Submit"><br>
+		<div class="disclaimer"><sup>*</sup>Please don't enter actual credit card info, this is not a secure site<div>
+
+
+</body>
+</html>
