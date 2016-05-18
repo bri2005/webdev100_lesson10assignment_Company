@@ -21,11 +21,27 @@
 .albumCoverImage {
 	float: left;
 	padding: 10px;
+	display: none;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+}
+
+.albumDescription {
+	float: left;
+	padding: 10px;
+	display: none;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
 }
 
 </style>
 
 </head>
+
+<!-- jQuery CDN -->
+
+<script  src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+
+<!-- script for animating the gallery - fade in, highlight on hover, show details on click -->
+<script src="scripts/buy_records.js"></script>
 
 <body>
 
@@ -48,6 +64,12 @@
 	<div id="album1" class="albumCoverImage">
 		<img src="Images/nevermind.jpeg" width="300">
 	</div>
+
+	<div id="album1description" class="albumDescription">
+		<span>Nevermind is a great album.</span>
+	</div>
+
+
 	<div id="album2" class="albumCoverImage">
 		<img src="Images/funeral.jpeg" width="300">
 	</div>
@@ -61,15 +83,12 @@
 		<img src="Images/elephant.png" width="300">
 	</div>
 	<div id="album6" class="albumCoverImage">
-		<img src="Images/soundgarden.jpg" width="300">
-	</div>
-	<div id="album7" class="albumCoverImage">
 		<img src="Images/hunky_dory.jpg" width="300">
 	</div>
-	<div id="album8" class="albumCoverImage">
+	<div id="album7" class="albumCoverImage">
 		<img src="Images/zeppelin.png" width="300">
 	</div>
-	<div id="album9" class="albumCoverImage">
+	<div id="album8" class="albumCoverImage">
 		<img src="Images/sticky_fingers.jpg" width="300">
 	</div>
 </div>
