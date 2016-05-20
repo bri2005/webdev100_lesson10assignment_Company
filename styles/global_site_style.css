@@ -9,14 +9,16 @@
 
 /*Navigation bar settings*/
 body{
-
-	background-color: "white";
+	margin: 0;
+	background-image:url("../images/recordswp.jpg");
+	
 
 }
 nav {
-	background-color: "white";
-	padding: 5px;
+	background-color: lightgrey;
+	padding: 10px;
 	font-size: 120%;
+
 }
 
 ul {

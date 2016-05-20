@@ -11,6 +11,13 @@
 }
 .eventhead{
 	text-align: center;
+	background-color: lightgrey;
+	padding: 5px;
+	border-radius: 10px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 	
 .eventtext{
@@ -20,6 +27,10 @@
 
 .tix{
 	float: left;
+	background-color: lightgrey;
+	border-radius: 10px;
+	padding-right: 5px;
+	margin-bottom: 5px;
 }
 
 .address img{
@@ -74,9 +85,14 @@
 }
 
 .tbd{
-	float: left;
 	text-align: center;
-	width: 100%;
+	width: 150px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	margin-top: -95px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .payment{
 	border: solid black 1px;
@@ -91,10 +107,15 @@
 .tix img{
 	width: 100px;
 	height: 35px;
+	float: right;
 }
 
 .payment img{
 	width: 40px;
 	height: 20px;
+}
+
+.clear{
+	clear: both;
 }
 

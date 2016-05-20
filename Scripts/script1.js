@@ -65,11 +65,14 @@ $(document).ready(
 			})
 		})
 
-		$("#quantity-form").submit(function(event){
+		$(".quantity-form").submit(function(event){
 			event.preventDefault();
-			quantity = $("#quantity").val(); 
+			quantity = $(".quantity", this).val(); 
 			total = (quantity * 15).toFixed(2);
-			$("#total").html("$" + total);
+			$(".total", this).html("$" + total);
+		})
+		$(".payus").click(function(event){
+			alert("Thank you for your purchase!")
 		})
 	}
 );
