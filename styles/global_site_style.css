@@ -56,3 +56,14 @@ ul li a{
 	height: 300px;
 }
 
+.eventhead{
+	text-align: center;
+	background-color: lightgrey;
+	padding: 5px;
+	border-radius: 10px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
