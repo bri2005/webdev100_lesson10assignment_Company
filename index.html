@@ -4,6 +4,8 @@
 
 <head>
 
+<link rel="stylesheet" type="text/css" href="styles/reset.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="styles/global_site_style.css">
 
 <style>
@@ -16,26 +18,20 @@
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
-#welcomeImage {
-	padding-left: 0px;
-	width: 100%;
+img {
+	float: left;
+	width: 300px;
+	height: 200px;
 }
 
-#imageHolder {
+#welcomeMessage {
+	background-color: lightgrey; 
 	margin-top: 50px;
-	width: 35%;
-	margin-left: 80px; 
-}
-
-#welcomeMessageAndLinksHolder {
-	margin-top: 50px;
-	margin-left: 50px;
-	padding: 20px;
-	width: 35%;
-	background-color: lightgrey;
+	padding-top: 90px;
+	height:200px;
+	text-align: center;
 }
 
 </style>
@@ -58,27 +54,14 @@
 <h1 id="welcomeHeader">The Record Company</h1>
 
 <!-- Holder for the welcome image and intro text/links on right side-->
-<div id="welcomeMessageAndLinksHolder" class="contentHolder">
+<div id="welcomeMessageAndLinksHolder">
 
-<span id="welcomeMessage">
-Hi - welcome to The Record Company!
-<br></br>
-Please browse and buy from our collection, look at upcoming events and subscribe to our newsletter!
+		<div id="welcomeMessage">
+			<p>Hi - welcome to The Record Company!
+			Please browse and buy from our collection, look at upcoming events and subscribe to our 	newsletter!</p>
+		</div>
 
-</span>
-<!-- end welcomeMessage -->
-
-</div> <!-- end content panel -->
-</div> <!-- end welcomeAndLinksHolder-->
-
-
-<!-- image on the right side of the welcome page, this is a shark -->
-<div id="imageHolder" class="contentHolder">
-	<img id="welcomeImage" src="images/records_wall.jpg">
 </div>
-
-</div> <!-- end content panel -->
-</div> <!-- end welcomeAndLinksHolder-->
 
 </body>
 
