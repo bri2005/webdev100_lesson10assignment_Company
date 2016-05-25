@@ -18,12 +18,19 @@
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 50px;
 }
 
-img {
-	float: left;
-	width: 300px;
-	height: 200px;
+#imageHolder{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#imageHolder img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #welcomeMessage {
@@ -53,15 +60,18 @@ img {
 <!-- Title, centered !-->
 <h1 id="welcomeHeader">The Record Company</h1>
 
+
 <!-- Holder for the welcome image and intro text/links on right side-->
-<div id="welcomeMessageAndLinksHolder">
+<div id="imageHolder">
+		<img src="Images/vinyls.jpg">
 
 		<div id="welcomeMessage">
 			<p>Hi - welcome to The Record Company!
-			Please browse and buy from our collection, look at upcoming events and subscribe to our 	newsletter!</p>
+				Please browse and buy from our collection, look at upcoming events and subscribe to our		newsletter!</p>
 		</div>
-
 </div>
+
+
 
 </body>
 
