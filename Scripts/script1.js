@@ -74,5 +74,13 @@ $(document).ready(
 		$(".payus").click(function(event){
 			alert("Thank you for your purchase!")
 		})
+		$(".signup").click(function(event){
+			$(".newsletter").val("");
+			alert("Thank you for signing up!")
+
+		})
+		
+			
+		
 	}
 );

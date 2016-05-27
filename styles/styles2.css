@@ -58,6 +58,15 @@
 	padding: 5px;
 }
 
+.newsup{
+	float: left;
+	width: 30%;
+	background-color: lightgrey;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 5px;
+}
+
 .social_media{
 	float: left;
 	background-color: lightgrey;
